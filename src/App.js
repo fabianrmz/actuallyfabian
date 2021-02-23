@@ -12,12 +12,8 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route path="/soyadmin">
-            <SoyAdmin></SoyAdmin>
-          </Route>
-          <Route path="/">
-            <Home></Home>
-          </Route>
+          <Route path="/soyadmin" component={SoyAdmin}/>
+          <Route path="/" component={Home}/>
         </Switch>
       </Router>
 

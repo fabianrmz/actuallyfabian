@@ -17,7 +17,7 @@ const Home = () => {
 
             <div className="window"> 
                 <div className="header">
-                    <p>Follow the links! <a type={'button'} href={'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO'}><button type="button" className="closeX">X</button></a></p>  
+                    <p>Fabian's links! <a type={'button'} href={'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstleyVEVO'}><button type="button" className="closeX">X</button></a></p>  
                 </div>
                 <div className="message">
                     <p>Where do you want to go?</p>
