@@ -25,7 +25,7 @@ const Home = () => {
 
                     <div className="buttons">
                         
-                            <MyButton name={'Myself'} link={'https://twitter.com/ActuallyFabian'}/>
+                            <MyButton name={'Twitter'} link={'https://twitter.com/ActuallyFabian'}/>
                             <MyButton name={'My CV'} link={myCV}/>
                             <MyButton name={'Git'} link={'https://github.com/fabianrmz'}/>
                             <MyButton name={'Linked In'} link={'https://www.linkedin.com/in/fabian-ramirez-gonzalez/'}/>
