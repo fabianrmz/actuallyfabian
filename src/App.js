@@ -10,7 +10,7 @@ import {
 function App() {
   return (
     <>
-      <Router>
+      <Router >
         <Switch>
           <Route path="/soyadmin" component={SoyAdmin}/>
           <Route path="/" component={Home}/>
