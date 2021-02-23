@@ -3,6 +3,8 @@ import './Home.css';
 import kirby from './mascot.gif'
 import MyButton from './MyButton/MyButton';
 
+import myCV from './Fabian Ramirez CV.pdf';
+
 const Home = () => {
 
     
@@ -22,24 +24,29 @@ const Home = () => {
 
 
                     <div className="buttons">
-                        <ul>
+                        
                             <MyButton name={'Myself'} link={'https://twitter.com/ActuallyFabian'}/>
-                            <MyButton name={'My CV'} link={''}/>
+                            <MyButton name={'My CV'} link={myCV}/>
                             <MyButton name={'Git'} link={'https://github.com/fabianrmz'}/>
                             <MyButton name={'Linked In'} link={'https://www.linkedin.com/in/fabian-ramirez-gonzalez/'}/>
-                        </ul>
+                            
                         
                         
                     </div>
+                    <hr></hr>
                     <div className="buttonContent">
                         <a type={"button"} href={"/soyadmin"}>
                             <button>
-                                LET'S FLY!!
+                                CONTINUE
                             </button>
                         </a>
+                        
                     </div>
                 </div>
             </div>
+            
+            
+            
 
             <div className="imageWrapper">
                 <img alt="img" src={kirby}/>

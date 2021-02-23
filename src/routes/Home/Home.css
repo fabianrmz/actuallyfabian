@@ -32,7 +32,7 @@ body {
     background-color: #BB4B2B;
     
     width: 10%;
-    height: 35px;
+    height: 24px;
     color: white;
     cursor: pointer;
     border: 2px solid white;
@@ -44,7 +44,7 @@ body {
 .message {
     background-color: #ECE9D8;
     color: black;
-    padding: 1% 16% 10% 0%;
+    padding: 1% 16% 10% 16%;
     text-align: center;
 }
 

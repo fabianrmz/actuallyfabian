@@ -8,13 +8,15 @@ const MyButton = (props) => {
     };
 
     return(
-        <>
-            <li style={style} >
-                <a type={'button'} href={props.link} >
-                {props.name}
+        <div className="buttonStyle">
+            
+                <a  type={'button'} href={props.link} >
+                    <button style={style}>
+                        {props.name}
+                    </button>
                 </a>
-            </li>
-        </>
+            
+        </div>
     )
 }
 
