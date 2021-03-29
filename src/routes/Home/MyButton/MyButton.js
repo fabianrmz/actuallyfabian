@@ -18,13 +18,15 @@ const MyButton = (props) => {
 
     return(
         <div className="buttonStyle">
-            {pointing? <img alt="img" className="arrow" src={arrow}/>  :null}
-                <a  type={'button'} href={props.link} >
-               
+            
+                <a  type={'button'} href={props.link} onMouseEnter={() => mouseEnter()} >
+                {pointing? <img alt="img" className="arrow" src={arrow}/>  :null}
                     <button 
+                    
                         onMouseEnter={() => mouseEnter()} 
                         onMouseLeave={() => mouseLeave()} 
                         style={style}>
+                            
                         {props.name}
                     </button>
                     

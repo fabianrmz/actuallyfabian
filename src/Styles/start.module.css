@@ -1,0 +1,165 @@
+@font-face {
+    font-family: winProFont;
+    src: url('../fonts/ProFontWindows.ttf');
+  }
+
+  @font-face {
+    font-family: WeknowWindows;
+    src: url('../fonts/Weknow Windows.ttf');
+  }
+  @font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+  }
+
+
+.background {
+    background: #5A7EDC;
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.winLogo{
+    width: 20%;
+}
+
+.half {
+    width: 46%;
+    display: inline-block;
+    left: 0;
+    text-align: right;
+    color: white;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-right: 2%;
+    height: auto;
+}
+
+.half img{
+    width: 30%;
+}
+
+
+.topHeader {
+    background: rgb(0,48,156);
+    background: linear-gradient(270deg, rgba(0,48,156,1) 0%, rgba(26,69,166,1) 61%, rgba(72,106,183,1) 100%, rgba(255,255,255,1) 100%);
+    height: 15vh; 
+    
+}
+
+.bottomFooter {
+    color: white;
+    
+    background: rgb(0,48,156);
+    background: linear-gradient(270deg, rgba(0,48,156,1) 0%, rgba(40,80,171,1) 46%, rgba(42,81,172,1) 62%, rgba(51,89,175,1) 74%, rgba(57,94,177,1) 89%, rgba(72,106,183,1) 100%, rgba(255,255,255,1) 100%);
+    height: 15vh; 
+}
+
+.message1 {
+    position: absolute;
+    width: 50%;
+}
+
+
+.message1 p{
+    position: absolute;
+    left: 15%;
+}
+
+.message1 img{
+    width: 40px;
+   
+}
+.message2 {
+    position: absolute;
+    width: 40%;
+    font-family: winProFont;
+    font-size: 20px;
+    left: 60%;
+}
+
+.container{
+    background: rgb(90,126,220);
+    background: linear-gradient(309deg, rgba(90,126,220,1) 4%, rgba(90,126,220,1) 22%, rgba(107,140,224,1) 30%, rgba(130,157,229,1) 61%, rgba(220,227,248,1) 94%, rgba(255,255,255,1) 100%);
+    height: 70vh;
+}
+
+
+.profile img{
+    width: 15%;
+    display: inline-block;
+    margin: 4px 0 0 4px;
+    
+    border:2px solid #fff;
+    -moz-box-shadow: 0px 6px 5px #ccc;
+    -webkit-box-shadow: 0px 6px 5px #ccc;
+    box-shadow: 0px 6px 5px #ccc;
+    -moz-border-radius:190px;
+    -webkit-border-radius:190px;
+    border-radius:5px;
+    cursor: pointer;
+    
+}
+
+.profile p{
+    display: inline-block;
+    padding-left: 5%;
+    top: -60px;
+    position: relative;
+}
+
+.profile{
+    text-align: left;
+    padding-left: 15%;
+    
+}
+@media only screen and (max-width: 1600px) {
+    
+    .profile p{
+        display: inline-block;
+        padding-left: 5%;
+        top: -30px;
+        position: relative;
+        font-size: 20px;
+    }
+  }
+@media only screen and (max-width: 1000px) {
+    
+    .profile p{
+        display: inline-block;
+        padding-left: 5%;
+        top: -30px;
+        position: relative;
+        font-size: 20px;
+    }
+  }
+
+
+@media only screen and (max-width: 900px) {
+    .half {
+        width: 98%;
+        display: inline-block;
+        left: 0;
+        text-align: right;
+        color: white;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        height: auto;
+    }
+    .half img{
+        width: 140px;
+    }
+    .profile img{
+        width: 50px;
+    }
+
+    .message2 {
+        position: absolute;
+        width: 30%;
+        font-family: winProFont;
+        font-size: 15px;
+        left: 70%;
+    }
+  }
+
+

@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    
   }
 
 .container{
@@ -13,7 +13,7 @@ body {
     border-radius: 5px;
     align-content: center;
     color: white;
-    margin: 0% 10% 0% 10%;
+    margin: 5% 10% 0% 10%;
     font-family: Segoe UI;
 }
 .header {

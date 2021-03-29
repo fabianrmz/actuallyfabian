@@ -1,6 +1,5 @@
-
-import Home from './routes/Home/Home';
-import SoyAdmin from './routes/Soyadmin/Soyadmin';
+import Start from './routes/Start';
+import Desktop from './routes/Desktop';
 import {
   BrowserRouter as Router,
   Switch,
@@ -12,8 +11,8 @@ function App() {
     <>
       <Router >
         <Switch>
-          <Route path="/soyadmin" component={SoyAdmin}/>
-          <Route path="/" component={Home}/>
+          <Route path="/desktop" component={Desktop} title="user"/>
+          <Route path="/" component={Start} title={"Home"}/>
         </Switch>
       </Router>
 
