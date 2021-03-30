@@ -1,16 +1,3 @@
-@font-face {
-    font-family: winProFont;
-    src: url('../fonts/ProFontWindows.ttf');
-  }
-
-  @font-face {
-    font-family: WeknowWindows;
-    src: url('../fonts/Weknow Windows.ttf');
-  }
-  @font-face {
-    font-family: Roboto;
-    src: url('../fonts/Roboto-Regular.ttf');
-  }
 
 
 .background {

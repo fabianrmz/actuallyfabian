@@ -1,0 +1,84 @@
+.windowContainer {
+    padding-top: 5%;
+}
+.topWindow{
+    background: rgb(0,85,229);
+    background: linear-gradient(335deg, rgba(0,85,229,1) 24%, rgba(20,98,231,1) 55%, rgba(30,105,232,1) 62%, rgba(48,117,234,1) 66%, rgba(127,170,242,1) 100%, rgba(255,255,255,1) 100%);
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+    
+    width: 79%;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.closeX{
+    background-color: #C23107;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    float: right;
+    right: 1%;
+    
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px 0 0 2px;
+    box-shadow: 0 0 0 2px #fff;
+    position: relative;
+    top: 10px;
+}
+.closeX p{
+    
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.windowBlueOption{
+    background-color: #0055e5;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    float: right;
+    right: 1%;
+    
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px 3px 0 2px;
+    box-shadow: 0 0 0 2px #fff;
+    position: relative;
+    top: 10px;
+}
+.windowBlueOption p{
+    margin: 0px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.captionWindow{
+    text-align: left;
+    display: inline-block;
+    margin-left: 1%;
+    
+}
+.captionWindow img{
+    width: 20px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 16px;
+    padding-left: 10px;
+}
+.captionWindow p{
+    padding-left: 40px;
+}
+
+.windowContent{
+    background-color: thistle;
+    margin-right: 1%;
+    margin-left: 1%;
+    height: 23vh;
+}
