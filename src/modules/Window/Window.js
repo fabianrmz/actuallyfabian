@@ -1,7 +1,7 @@
 import React from 'react';
 import Style from './Window.module.css';
 import userIcon from './userIcon.png';
-
+import profilePic from './profilePhoto.jpg';
 const Window = () =>{
 
     return (
@@ -22,7 +22,16 @@ const Window = () =>{
                         <p>_</p>
                 </div>
                 <div className={Style.windowContent}>
-                    This page is in working progress
+                    <div className={Style.imageContainer}>
+                        <img alt={"img"} src={profilePic}/>
+                    </div>
+                    <div className={Style.textContainer}>
+                        <p>Fabián Ramírez </p>
+                        <p>Computer Systems Engineer Student (8th semester)</p>
+                        <p>Tec de Monterrey, Campus GDL</p>
+                        
+                    </div>
+                    
                 </div>
             </div>
             
