@@ -24,7 +24,7 @@ const Start = () => {
                     <UserXP name={"Fabián Ramírez"} image={profilePic} link={"/desktop"}/>
                     <UserXP name={"My CV"} image={duckPic} link={myCV} />
                     <UserXP name={"Github Profile"} image={gitHubLogo} link={"https://github.com/fabianrmz"}/>
-                    <UserXP name={"Linked In Profile"} image={linkedInLogo} link={"https://www.linkedin.com/in/fabian-ramirez-gonzalez/"}/>
+                    <UserXP name={"LinkedIn Profile"} image={linkedInLogo} link={"https://www.linkedin.com/in/fabian-ramirez-gonzalez/"}/>
                 </div>
                
             </div>
