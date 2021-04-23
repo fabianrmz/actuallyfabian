@@ -1,5 +1,3 @@
-
-
 .background {
     background: #5A7EDC;
     font-family: Roboto;
@@ -16,10 +14,19 @@
     left: 0;
     text-align: right;
     color: white;
-    padding-top: 6%;
-    padding-bottom: 6%;
+    padding-top: 0%;
+    padding-bottom: 0%;
     padding-right: 2%;
     height: auto;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.halfLeft {
+    top: 20%;
 }
 
 .half img{
@@ -75,7 +82,7 @@
 .profile img{
     width: 15%;
     display: inline-block;
-    margin: 4px 0 0 4px;
+    margin: 0px 0 0 4px;
     
     border:2px solid #fff;
     -moz-box-shadow: 0px 6px 5px #ccc;
@@ -98,7 +105,8 @@
 .profile{
     text-align: left;
     padding-left: 15%;
-    
+    box-sizing: border-box;
+    height: 80%;
 }
 @media only screen and (max-width: 1600px) {
     
@@ -122,19 +130,23 @@
   }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
     .half {
         width: 98%;
         display: inline-block;
         left: 0;
         text-align: right;
         color: white;
-        padding-top: 6%;
-        padding-bottom: 6%;
+        padding-top: 3%;
+        padding-bottom: 0%;
         height: auto;
+        top: 30%;
     }
     .half img{
         width: 140px;
+    }
+    .half p{
+        padding-right: 3%;
     }
     .profile img{
         width: 50px;
@@ -146,6 +158,9 @@
         font-family: winProFont;
         font-size: 15px;
         left: 70%;
+    }
+    .halfLeft {
+        top: 20%;
     }
   }
 

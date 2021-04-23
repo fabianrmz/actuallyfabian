@@ -1,8 +1,11 @@
-import React from 'react';
+import {React, useState} from 'react';
 import Style from './Window.module.css';
 import userIcon from './userIcon.png';
 import profilePic from './profilePhoto.jpg';
+import profilePic2 from './profilePic2.jpg';
 const Window = () =>{
+
+    const [mouseOver, setMouseOver] = useState(false);
 
     return (
         <div className={Style.windowContainer}>
@@ -22,8 +25,8 @@ const Window = () =>{
                         <p>_</p>
                 </div>
                 <div className={Style.windowContent}>
-                    <div className={Style.imageContainer}>
-                        <img alt={"img"} src={profilePic}/>
+                    <div className={Style.imageContainer} >
+                        {mouseOver ? <img alt={"img"} src={profilePic2}   onMouseEnter={() => setMouseOver(true)} onMouseLeave={() => setMouseOver(false)}/> : <img alt={"img"} src={profilePic} onMouseEnter={() => setMouseOver(true)} onMouseLeave={() => setMouseOver(false)} />}
                     </div>
                     <div className={Style.textContainer}>
                         <p>Fabián Ramírez </p>
